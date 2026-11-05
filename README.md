@@ -1,21 +1,28 @@
-<<<<<<< HEAD
-# Ada-Scotland-Hackathon
-This is where we will store all the code
-=======
-# React + Vite
+# Ada Scotland Hackathon
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Nexus Network is a React and Vite mentor-matching platform for women and
+non-binary professionals entering and growing in STEM.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Mentor matching by career goals and skills
+- Mentor directory with industry and journey filters
+- Searchable career paths and events
+- Mentor profiles, session booking, and Secure Comms chat
+- Event registration and career roadmaps
 
-## React Compiler
+## Development
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Install dependencies and start the development server:
 
-## Expanding the Oxlint configuration
+```bash
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
->>>>>>> 0f5e448 (Add mentor matching features)
+Run lint and build checks:
+
+```bash
+npm run lint
+npm run build
+```
